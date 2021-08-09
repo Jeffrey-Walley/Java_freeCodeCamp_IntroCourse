@@ -1,0 +1,141 @@
+::Java::   freeCodeCamp: https://www.youtube.com/watch?v=GoXwIVyNvX0&t=7s
+
+
+01.   java uses classes and methods -- the 'main' method is the start of every java program - 'main':
+		 $ public static void main(String[] args)
+
+	the code will go between the curly braces
+
+	print in Java $ System.out.println("hello world);
+	
+	
+::variables and data types::
+	variables can't start with number and can't have spaces
+
+	order of operations is important in Java
+
+Primitave data types: int
+		      double
+		      char
+   		      boolean
+
+Variables can be equal to other variables
+
+
+
+
+02. Operators -- math operators
+
+  java.lang.Math.pow()  $ Math.pow(x, y) is used to return the value of 'x' raised to the power of 'y'.
+	int x = 56 % 5;                        // modulus give the remainder
+
+
+
+03. Scanner (input) basics
+
+
+04. Comparisons, Chaining Conditions, and Booleans
+
+
+05. If, Else, Else/If Statements
+
+
+06. Nested Statements -- mock project asking age and then additional if statement nested under 18+ age answer. use If, Else If, Else
+
+
+07. Arrays - have a set length in Java
+
+
+08. For Loops  - iterates a defined amount of times 
+
+
+09. While Loops - 
+
+
+10. Sets and Lists - Collections Interface in Java
+	
+   HashSet
+	- don't have to have a set length like Arrays do in Java
+ 	- set information has to be unique (no repeated numbers or names...) 
+	- sets are undordered, they don't know where the information is inside of them, 
+		they just know that it is in there (not ordered)
+   TreeSet
+	- are ordered
+
+   LinkedHashSet - fastest to search through (he didn't say anything other than that)
+ 
+   	
+  LISTS -- Array List
+	you can add items into an Array List (Array has a fixed index number)
+
+
+		
+11. Maps and HashMaps -- Key Value Pair (a dictionary in other languages)
+
+   HashMaps - fast, but does not keep information in Order
+
+
+   TreeMap - orders it in alphabetical or numerical order
+
+
+   LinkedHashMaps - it keeps items in the order in which we add them. 
+
+
+
+12. HashMap Exercise
+
+
+
+13. Intro to Objects -- an object is an instance of a datatype 
+		objects have methods
+    
+    .length is a method that Strings have, .next is a method that Scanner has
+
+
+
+14. Creating Classes 
+	in this example we create a Dog class and create instances of that class using the .speak method that we have created
+
+
+15. Inheritance
+
+	'extends' allows you to inherit Class attributes from the parent class. in our example we made a Cat class off of our Dog
+	   class from exercise 14. 
+	protected vs private:
+		protected - can use the information with the same package and all subclasses in the same package
+		private - cannot use the information in any other classes
+		public - can use the information anywhere in the program you are building
+
+
+16. understanding 'Static' - what does 'Static' mean?
+	you call static on a class and not an instance... if you use Static, you are not concerned with the attributes of an instance, but of 
+ 		the class.
+
+	Static method information is stored in the class -- static methods are similar to functions in other program languages.
+	
+	Void - you are not returning any value, we are simply doing something ex: manipulating an array, printing to the screen, 
+				or getting an input from a user. When you use void you do not return any value back to the call statement.
+
+
+17. Overloading Methods and Object Comparisons
+
+		comparing objects
+
+		compareTo() methods
+		
+	 
+
+18. Inner Classes 
+
+
+
+19. Interfaces
+
+
+
+20. Enums
+
+
+
+
+
